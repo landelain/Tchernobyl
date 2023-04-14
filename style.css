@@ -1,0 +1,422 @@
+/*  static  */
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(35, 4, 67);
+}
+.Title {
+    background-color: rgba(86, 0, 91,.8);
+    
+    height: 150px;
+    border: solid 2px rgb(208, 43, 237);
+}
+.Title a img{
+    height: 100px;
+    width: 100px;
+    border: 5px solid transparent;
+    border-radius: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+}
+#Titlebox {
+    margin-left: 8%;
+    display: inline-block;
+    width: 800px;
+    text-align: center;
+}
+#Title {
+    font-size: 60px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    
+}
+#alert {
+    
+    margin-left: 0;
+    display: block;
+    color: rgb(157, 12, 43);
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+
+/*  Mode  */
+
+.Mode #soiree {
+    height: 50px;
+    width: 200px;
+    background-color: rgba(86, 0, 91,.8);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    border-radius: 5px;
+    border: solid 2px rgb(208, 43, 237);
+    margin-left: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -7%;
+    font-size: 20px;
+    margin-left: 80%;
+}
+.Mode #soiree:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+
+}
+
+/*  Score */ 
+
+.Title div{
+    height: 10%;
+    width: 10%;
+    padding-right: 3%;
+    margin-left: auto;
+    margin-top: -9%;
+    font-size: 30px;
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+}
+.Title div h4 {
+    padding: 10px;
+    background-color: rgba(86, 0, 91,.8);
+}
+
+/*  intro  */ 
+
+.Intro {
+    height: 300px;
+    width: 40%;   
+    background-color: rgb(86, 0, 91,.8);
+    margin-left: 27%;
+    margin-top: 10%;
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    text-align: center;
+    display: inline-block;
+}
+.Intro h1 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.Intro p {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 1%;
+}
+.Intro button {
+    height: 23%;
+    width: 50%;
+    font-size: 110%;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+.Intro button:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+}
+
+/*  Choice  */
+
+.Choice {
+    margin-top: 6%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+}
+.Choice #quote {
+    height: 80%;
+    width: 40%;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 100px;
+    padding: 2%;
+}
+.Choice #quote #textquote {
+    color: rgb(255, 0, 221);
+    text-shadow: 0 0 5px rgb(255, 0, 221);
+    text-shadow: 0 0 10px rgb(255, 0, 221);
+    text-shadow: 0 0 25px rgb(255, 0, 221);
+}
+.Choice #answer1 {
+    height: 64%;
+    width: 300px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    display: inline-block;
+    margin-right: 8%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.Choice #answer1:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+}
+
+.Choice #answer2 {
+    height: 64%;
+    width: 300px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.Choice #answer2:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+
+}
+.Choice #answer3 {
+    height: 52%;
+    width: 300px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    display: inline-block;
+    margin-right: 8%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.Choice #answer3:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+
+}
+.Choice #answer4 {
+    height: 52%;
+    width: 300px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.Choice #answer4:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+}
+.Choice #cont12 {
+    display: inline-block;
+}
+.Choice #cont121 {
+    
+    margin-top: 5%;
+    height: 40%;
+    width: 700px;
+}
+.Choice #cont122 {
+    
+    height: 50%;
+    width: 700px;
+}
+
+/*  Charge  */
+
+.Charge {
+    height: 100px;
+    display: inline;
+    width: 300px;
+}
+
+.Charge button {
+   height:50px;
+   width: 10%;
+   margin-top: auto;
+   border: solid 2px rgb(208, 43, 237);
+   background-color: rgba(86, 0, 91,.8);
+   color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+   font-size: 20px;
+   border-radius: 5px;
+}
+.Charge button:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+}
+
+/*  Fail screen  */
+
+.Fail {
+
+    height: 300px;
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.Fail p {
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    font-size: 30px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    width: fit-content;
+    padding: 30px;
+    margin-right: 2%;
+    display: inline-block;
+}
+.Fail button {
+    height: 50px;
+    width: 200px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    border-radius: 5px;
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    font-size: 30px;
+
+}
+.Fail button:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+}
+.Fail video {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: 30%;
+    object-fit: cover;
+    border: solid 2px rgb(208, 43, 237);
+}
+
+/*  Win  */
+
+.Win {
+
+    height: 300px;
+    width: 102%;
+    margin-top: -20px;
+    text-align: center;
+    margin: auto;
+}
+
+.Win #message {
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    font-size: 30px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin-left: auto;
+
+}
+.win p {
+    margin: 0px;
+    padding: 0px;
+}
+.Win button {
+    height: 50px;   
+    width: 200px;
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    border-radius: 5px;
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    font-size: 30px;
+    vertical-align: top;
+    margin-left: 20px;
+
+}
+.Win button:hover {
+    background-color: rgba(121, 30, 126, 0.8);
+}
+.Win video {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    object-fit: cover;
+    border: solid 2px rgb(208, 43, 237);
+}
+
+/*  Board  */
+
+.Board {
+    background-color: rgba(86, 0, 91,.8);
+    border: solid 2px rgb(208, 43, 237);
+    height: 290px;
+    width: 250px;
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 10%;
+    margin-left: 2%;
+    text-align: center;
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    padding-top: 0.6%;
+}
+.Board u {
+    font-size: 35px;
+}
+.Board #best{
+    font-size: 23px;
+    color: rgb(208, 43, 237);
+    text-shadow: 0 0 5px rgb(208, 43, 237);
+    text-shadow: 0 0 10px rgb(208, 43, 237);
+    text-shadow: 0 0 25px rgb(208, 43, 237);
+    margin: 0;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.Board .scores {
+    font-size: 15px;
+    margin: 0;
+}
+
+
