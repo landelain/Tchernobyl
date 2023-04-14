@@ -584,7 +584,7 @@ const quotedict = {
     "Techniquement l'Homme est humain":'Kiki',
     "Quizzette c'est pas dans les misérables ?":'Kiki',
     "Je suis gay par manipulation":'Kiki',
-    "On fait vraiment une contre soiréé viol":'Kiki',
+    "On fait vraiment une contre soirée viol":'Kiki',
     "Tu mérites la pendaison à vie":"Kiki",
     /* Lucie */
     "Ca m'a giclé dessus" : "Lucie",
@@ -626,7 +626,7 @@ const quotedict = {
     "Ca va je sais bien faire ça, la lesbienne":'Mathou',
     "Vous voulez sucer un peu Besmier":'Mathou',
     "Attends je vais te lécher le crâne Killian":'Mathou',
-    "On a juste fait des preliminaires au lycée":'Mathou',
+    "On a juste fait des préliminaires au lycée":'Mathou',
     "Sourire c'est conssentir":'Mathou',
     "Je veux la tête d'Avry dans mon salon":'Mathou',
     "Je gémis de base H24-":'Mathou',
